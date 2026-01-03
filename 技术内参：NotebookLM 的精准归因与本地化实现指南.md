@@ -39,6 +39,11 @@ NotebookLM 的本质是一套高度优化的 **AQA (Attributed Question Answerin
     * *核心：* 介绍了如何评估模型输出的每一句话是否有据可查（AQA 系统的金标准）。
 3.  **《Gemini 1.5: Unlocking multimodal understanding across millions of tokens》**
     * *核心：* 探讨了长上下文（Long-context）对精确引用的重要性。
+4.  **《FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation》**
+
+- 核心价值： 解决了模型在处理具有时效性信息时的归因问题。
+
+- 开发启发： 引入 “两阶段核查机制”。第一阶段从本地文档提取证据（Grounding），第二阶段利用外部搜索或交叉验证来确保引用的证据没有被更新的信息推翻。这对于处理政策文件、技术文档或动态数据的引用至关重要。
 
 ---
 
